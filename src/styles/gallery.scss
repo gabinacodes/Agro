@@ -1,0 +1,57 @@
+.div20{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    justify-content: space-evenly;
+    >div {
+      margin: 5% 2%;
+      box-shadow: 1px 1px 7px;
+      padding: 2%;
+        >img {
+          width: 100%;
+      }
+    }
+}
+.div21{
+    background-image: url(../image/gall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;>h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+.previous,.next {
+    background-color: #f1f1f1;
+    color: black;
+    width:2%;
+    padding:1%;
+    font-size: large;
+    margin: 0.3%;
+  }
+  .previous:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  .next:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width:900px) {
+    .div20{
+        grid-template-columns: auto auto ;
+    
+        >div {
+            margin: 5% 2%;
+        }
+    }
+  }

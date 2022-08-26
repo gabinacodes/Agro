@@ -1,0 +1,126 @@
+.bacdrop{
+    background-image: url(../image/servicebackdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;>h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+.bd{
+    background-image: url(../image/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;>h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+.ogo {
+display: flex;
+width: 12%;
+> img {
+    width: 22%;
+    height: 31%;
+    margin: 14px -2px 0 0;
+}
+}
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3%;
+    background-color: #FFFDE6;
+}
+.dv13 {
+    padding: 2%;
+    margin: 3%;
+    width: 62%;
+    line-height: 28px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid rgba(153, 147, 147, 0.19);
+}
+.div51{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >h3{
+        font-weight: 600;
+    }
+}.contact{
+    >input{
+        width: 100%;
+        padding: 6px 20px;
+        margin: 8px 4px;
+        box-sizing: border-box;
+        background: rgba(33, 124, 44, 0.05);
+        border: 0.906009px solid #217C2C;
+        border-radius: 3.62404px;
+    }
+    >button{
+        background-color: #217C2C;
+        border: transparent;
+        border-radius: 3px;
+        padding: 12px 2%;
+        color: white;
+        position: relative;
+        right: -45%;
+      }
+    >div{
+        display: flex;
+        >input{
+            width: 100%;
+            padding: 6px 20px;
+            margin: 8px 4px;
+            box-sizing: border-box;
+            background: rgba(33, 124, 44, 0.05);
+            border: 0.906009px solid #217C2C;
+            border-radius: 3.62404px;
+        }
+    }
+}
+.div52 {
+    position: absolute;
+    background: white;
+    width: 39%;
+    top: 430px;
+    right: 240px;
+    padding: 3%;
+}
+.div53 {
+    position: relative;
+    height: 467px;
+    background: #FFFDE6;
+    margin-bottom: -19px;
+}
+.div55 {
+    border: none;
+    border-bottom: 2px solid #217C2C;
+    background: transparent;
+    border-radius: 0;
+}
+@media screen and (max-width:900px) {
+    .dv13 {
+        width: 88%;
+    }
+    .div52 {
+        position: absolute;
+        background: white;
+        width: 78%;
+        top: 430px;
+        right: 9%;
+        padding: 5%;
+    }
+    .service{
+        grid-template-columns: auto;  }
+}

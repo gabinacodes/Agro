@@ -1,0 +1,151 @@
+.prev{
+    background-color:  #217C2C;
+    text-align: center;
+    color: white;
+    margin-top: 23px;
+    padding: 34px;
+    >img{
+        position: relative;
+        width: 23%;
+        top: 147px;
+        left: -39%;
+        margin-top: -152px;
+    }
+   >div{
+  
+    >input{
+        height: 29px;
+        width: 30%;
+    }
+    >button{
+        width: 7%;
+        height: 35px;
+        background:#FFDD00;
+        border: 2px transparent;
+        color:#217C2C;
+    }
+   }
+}
+.link{
+    font-size: 20px;
+    color: #217C2C;
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    >img{
+        width: 10%;
+        height: 100%;
+    }
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    >img{
+        margin-bottom: 4%;
+    }
+}
+.logo2{
+    display:none;
+}
+.ph{
+    text-align: center;
+    >div{
+        >p{
+            padding: 3px 12%
+        }
+    }
+}
+@media  screen and (max-width:900px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .prev{
+        >img{
+            display: none;
+        }
+        >div{
+  
+            >input{
+                height: 29px;
+                width: 60%;
+                font-size: 12px;
+            }
+            >button{
+                width: 29%;
+                height: 35px;
+                background:#FFDD00;
+                border: 2px transparent;
+                color:#217C2C;
+                border-radius: 8px;
+                margin-left: 3px;
+                font-size: 17px;
+            }
+        }
+        }
+        .ph {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        
+        }.footer{
+            order:2;
+           flex-wrap: wrap;
+            padding: 0;
+            line-height:34px;
+            text-align: left;
+            margin: 2%;
+        }.talk{
+            order:1;
+            text-align: left;
+            font-size: 15px;
+        }.copy{
+            order:3;
+            font-size: 8px;
+            >p{
+                font-size: 9px;
+            }
+        }
+        .ph{
+            text-align: center;
+            >div{
+                >p{
+                    padding: 3px 2%;
+                    line-height: 49px;
+                }
+            }
+        }
+        .lass{
+            margin: 30px 3px;
+            position: relative;
+            right: 19px;
+        }
+        .l{
+            display: none;
+        }
+        .logo2{
+            display: block;
+            text-align: center;
+            margin-top: 17px;
+        }
+        .link{
+            font-size: 20px;
+            color: #217C2C;
+            font-weight: 500;
+        }
+       .socials{
+        display: inline-flex;
+        flex-direction: row;
+        >img{
+            margin: 2%;
+        }
+       }
+    }
+  

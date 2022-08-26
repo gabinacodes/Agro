@@ -1,0 +1,132 @@
+.div31{
+    text-align: center;
+    color: #217C2C;
+    >button:hover{
+        background-color:  #FFDD00;
+        color: #217C2C
+        ;
+    }
+   
+    >h3{
+     font-family: Poppins;
+     font-size: 19px;
+     font-weight: 500;
+     line-height: 29px;
+     letter-spacing: -0.011em;
+    }
+    >p{
+      padding: 2% 15%;
+      font-size: 15px;
+      }
+      >button{
+        background-color: #217C2C;
+        border: transparent;
+        border-radius: 3px;
+        padding: 12px 2%;
+        color: white;
+      }
+    }
+    .compose:hover{
+        background-color:  #FFDD00;
+        color: #217C2C
+        ;
+    }
+    #modal {
+        width: 100%;
+        display: block;
+        background: #217C2C;
+        position:fixed;
+        z-index: 1000;
+        height: 100vh;
+        top: 2px;
+        text-align: center;
+        color: white;
+        >h6{
+            font-size: 18px;
+            margin: 1px;
+        }
+    }
+    .close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:1% 2%;
+    }
+    .form {
+        color: white;
+        font-size: 15px;
+        padding: 1% 7%;
+        text-align: left;
+        >input{
+            width: 100%;
+            padding:6px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid white;
+            background: #217C2C;
+        }
+       
+    }
+    .phone {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px;
+    }
+    .medias {
+        display: inline-flex;
+        align-items: center;
+        margin: -23px 0 0 0;
+        justify-content: space-evenly;
+    }
+    .doe{
+        display: none;
+    }
+    
+    .ocial {
+        display: flex;
+        justify-content: center;
+        margin: 16px;
+        >img{
+            padding:0 3%;
+        }
+    }
+    .compose{
+            color: #217C2C;
+            border: transparent;
+            border-radius: 3px;
+            padding: 1% 2%;
+           background-color: white;
+        }
+        .find{
+            text-align: center;
+            color: white;
+        }
+        .bdrop{
+            background-image: url(../image/cons.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 87vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;>h1{
+                font-size: 40px;
+                font-weight: 500;
+            }
+        }
+    @media screen and (max-width:900px) {
+        .form {
+            >input{
+                margin: 0;
+            }  
+        }.compose {
+            padding: 3% 2%;
+            margin: 3%;
+        }
+        .medias {
+            display: block;
+            align-items: center;
+            margin: -2px 0 0px 0;}
+    }
