@@ -1,0 +1,163 @@
+.login, .ogin {
+  background-image: url(../image/bglogin.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position-y: center;
+}
+
+.login > div, .ogin > div {
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.dias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.dias > div {
+  width: 56%;
+  border: 1px solid #217c2c;
+  padding: 3% 3% 1%;
+  margin: 2%;
+}
+
+.dias > div > img {
+  width: 100%;
+}
+
+.or {
+  width: 100%;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.module, .mdule {
+  position: absolute;
+  width: 337px;
+  border: 2px solid transparent;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.module > div, .mdule > div {
+  color: black;
+  font-size: 15px;
+  padding: 1% 7%;
+  text-align: left;
+}
+
+.module > div > input, .mdule > div > input {
+  width: 97%;
+  padding: 6px 20px;
+  margin: 8px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: rgba(33, 124, 44, 0.05);
+  border: 0.906009px solid #217C2C;
+  border-radius: 3.62404px;
+}
+
+.module > div > button, .mdule > div > button {
+  width: 97%;
+  margin: 15px 4px;
+  background: #217c2c;
+  border: transparent;
+  color: white;
+  height: 37px;
+  border-radius: 5px;
+}
+
+.module > div > button > a, .mdule > div > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.password, .pass, .word {
+  position: absolute;
+  top: 260px;
+  right: 50px;
+}
+
+.p {
+  font-size: 10px;
+}
+
+.p > a {
+  text-decoration: none;
+}
+
+.mdule {
+  width: 40%;
+  border-radius: 0%;
+  height: 93vh;
+}
+
+.ogin {
+  background-blend-mode: soft-light;
+  background-color: #217c2c;
+}
+
+.pass {
+  right: 64px;
+}
+
+.word {
+  top: 333px;
+  right: 65px;
+}
+
+@media screen and (max-width: 900px) {
+  .pass {
+    top: 242px;
+  }
+  .word {
+    top: 316px;
+  }
+  .password {
+    top: 244px;
+    right: 52px;
+  }
+  .module {
+    width: 263px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mdule {
+    width: 82%;
+    border-radius: 0%;
+    height: 93vh;
+    margin: 0 2%;
+  }
+}
+/*# sourceMappingURL=account.css.map */

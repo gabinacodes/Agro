@@ -1,0 +1,179 @@
+.bacdrop {
+  background-image: url(../image/servicebackdrop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 87vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.bacdrop > h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.bd {
+  background-image: url(../image/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 66vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.bd > h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.ogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12%;
+}
+
+.ogo > img {
+  width: 22%;
+  height: 31%;
+  margin: 14px -2px 0 0;
+}
+
+.service {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  padding: 3%;
+  background-color: #FFFDE6;
+}
+
+.dv13 {
+  padding: 2%;
+  margin: 3%;
+  width: 62%;
+  line-height: 28px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid rgba(153, 147, 147, 0.19);
+}
+
+.div51 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div51 > h3 {
+  font-weight: 600;
+}
+
+.contact > input {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 8px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: rgba(33, 124, 44, 0.05);
+  border: 0.906009px solid #217C2C;
+  border-radius: 3.62404px;
+}
+
+.contact > button {
+  background-color: #217C2C;
+  border: transparent;
+  border-radius: 3px;
+  padding: 12px 2%;
+  color: white;
+  position: relative;
+  right: -45%;
+}
+
+.contact > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact > div > input {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 8px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: rgba(33, 124, 44, 0.05);
+  border: 0.906009px solid #217C2C;
+  border-radius: 3.62404px;
+}
+
+.div52 {
+  position: absolute;
+  background: white;
+  width: 39%;
+  top: 430px;
+  right: 240px;
+  padding: 3%;
+}
+
+.div53 {
+  position: relative;
+  height: 467px;
+  background: #FFFDE6;
+  margin-bottom: -19px;
+}
+
+.div55 {
+  border: none;
+  border-bottom: 2px solid #217C2C;
+  background: transparent;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .dv13 {
+    width: 88%;
+  }
+  .div52 {
+    position: absolute;
+    background: white;
+    width: 78%;
+    top: 430px;
+    right: 9%;
+    padding: 5%;
+  }
+  .service {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+/*# sourceMappingURL=service.css.map */

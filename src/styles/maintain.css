@@ -1,0 +1,227 @@
+.maintain {
+  background-image: url(../image/maintainbg.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.maintain > h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.div41 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #EFFBF0;
+  padding: 5% 2%;
+}
+
+img.box {
+  position: absolute;
+  top: 737px;
+  right: 97px;
+  width: 33%;
+}
+
+.point {
+  width: 37%;
+  background: white;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: -60px;
+  border: 2px transparent;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 2px 2px 74px 2px;
+  -webkit-box-shadow: 2px 2px beige;
+          box-shadow: 2px 2px beige;
+}
+
+.point > button:hover {
+  background-color: #217C2C;
+  color: #FFDD00;
+}
+
+.point > h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.point > button {
+  width: 147px;
+  height: 35px;
+  background: #FFDD00;
+  border: 2px transparent;
+  color: #217C2C;
+  border: transparent;
+  border-radius: 4px;
+}
+
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  color: white;
+}
+
+.feature {
+  background-color: white;
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0.5px solid #242a2524;
+  border-radius: 8px;
+}
+
+.feature > img {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50% 1;
+          flex: 50% 1;
+  padding: 3% 4% 4% 10%;
+  width: 52%;
+}
+
+.feature > div {
+  background: #217C2C;
+  border: 2px transparent;
+  border-radius: 8px;
+  padding: 3%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.feature > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -6px;
+  margin-bottom: -9px;
+}
+
+.feature > div > div > p {
+  margin-top: -2px;
+}
+
+.feature > div > div > button {
+  width: 45%;
+  height: 54px;
+  margin: 0 0 23px 0;
+  background-color: white;
+  border: 2px transparent;
+  border-radius: 10px;
+}
+
+.pin {
+  position: absolute;
+  right: 643px;
+}
+
+.rectangle {
+  position: relative;
+  width: 66px;
+  height: 68%;
+  background: #217C2C;
+  top: 96px;
+  left: -47px;
+}
+
+@media screen and (max-width: 900px) {
+  .div41 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #EFFBF0;
+    padding: 5% 2%;
+  }
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    color: white;
+  }
+  .feature > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 14px;
+    margin-bottom: -3px;
+  }
+  .feature > div > div > button {
+    width: 45%;
+    height: 37px;
+    margin: 0 0 9px 0;
+    background-color: white;
+    border: 2px transparent;
+    border-radius: 4px;
+    padding: 1px;
+  }
+  .maintain > h1 {
+    font-size: 27px;
+  }
+  .pin {
+    right: 35px;
+  }
+  .point {
+    width: 90%;
+  }
+  .relative {
+    position: relative;
+    top: 17px;
+    right: -267px;
+    width: 58px;
+    height: 280px;
+    background: #217C2C;
+  }
+  img.box {
+    right: 66px;
+    width: 73%;
+    z-index: 10;
+    top: 1449px;
+  }
+  .div43 {
+    padding: 13% 0;
+  }
+  .feature > div {
+    padding: 5%;
+  }
+}
+/*# sourceMappingURL=maintain.css.map */

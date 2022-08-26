@@ -118,7 +118,7 @@ const save =()=>{
      <div className='navbar'>
         <input type="file" id='file' onChange={handleChange} />
         <img className='picture' id='pics'  src={file} alt="add img"/>
-        <label for="file" id='select' ><img src={Image.select} alt="img"/></label>
+        <label htmlFor="file" id='select' ><img src={Image.select} alt="img"/></label>
         <p id='best'></p>
         <div className='imgg'id='pro' onClick={profile} >
         <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,26 +163,26 @@ const save =()=>{
          <h3> Profile Settings </h3>
          <div>
         <div>
-        <label for="text"  >First Name</label><br/>
+        <label htmlFor="text"  >First Name</label><br/>
           <input type="text" placeholder="Simon" id='inPut'/>
         </div>
-         <div> <label for="text"  >Last Name</label><br/>
+         <div> <label  htmlFor="text"  >Last Name</label><br/>
           <input type="text" placeholder="Daniel" id='inPUt'/></div>
-         <div> <label for="text"   >Email</label><br/>
+         <div> <label htmlFor="text"   >Email</label><br/>
           <input type="text" placeholder="Simondaniel159@gmail.com "/></div>
-         <div> <label for="text"  >Phone Number </label><br/>
+         <div> <label  htmlFor="text"  >Phone Number </label><br/>
           <input type="phone" placeholder="+2349064556443"/></div>
-         <div> <label for="text"  >Home Address 1</label><br/>
+         <div> <label  htmlFor="text"  >Home Address 1</label><br/>
           <input type="text" placeholder="Home address "/></div>
-          <div><label for="text"  >Home Address 2</label><br/>
+          <div><label  htmlFor="text"  >Home Address 2</label><br/>
           <input type="text" placeholder="Address"/></div>
           <div><label >Country</label><br/>
           <input type="text" placeholder="France "/></div>
-         <div> <label for="text"  >Postal Code </label><br/>
+         <div> <label  htmlFor="text"  >Postal Code </label><br/>
           <input type="text" placeholder="110434"/></div>
-          <div><label for="text"  >City </label><br/>
+          <div><label  htmlFor="text"  >City </label><br/>
           <input type="text" placeholder="Nancy "/></div>
-         <div> <label for="text" >State</label><br/>
+         <div> <label  htmlFor="text" >State</label><br/>
           <input type="text" placeholder="Lorraine"/></div>
          
          </div>
@@ -194,8 +194,8 @@ const save =()=>{
         </div>
       <div className='radio'>
       <div>
-          <input type="radio" value="push"/>
-          <label for="radio"  name="fav_language">Recieve push notifications </label>
+      <input type="radio" value="push"/>
+          <label  htmlFor="radio"  name="fav_language">Recieve push notifications </label>
         </div>
         <div className='message'>
           <img alt='img' src={Image.inbox}/>
@@ -213,11 +213,11 @@ const save =()=>{
           <div className='line'></div>
           <div className='form1'>
           <input type="radio"  name="fav_language"/>
-          <label for="radio"  name="fav_language">Daily Newsletter </label><br/>
+          <label htmlFor ="radio"  name="fav_language">Daily Newsletter </label><br/>
           <input type="radio" name="fav_language" />
-          <label for="radio">Weekly Newsletter </label><br/>
+          <label  htmlFor="radio">Weekly Newsletter </label><br/>
           <input type="radio"  name="fav_language"/>
-          <label for="radio">I don’t want to receive notifications from newsletter </label>
+          <label  htmlFor="radio">I don’t want to receive notifications from newsletter </label>
           </div>
           <button className='btn23'>SAVE</button>
           <button className='btn24'>UNSUBSCRIBE FROM NEWSLETTER</button>
@@ -228,7 +228,7 @@ const save =()=>{
           <h1>Change Password</h1>
         </div>
         <div className='radio'>
-          <input className='innput'  placeholder='Current Password'/><br/>
+        <input className='innput'  placeholder='Current Password'/><br/>
           <input className='innput'  placeholder='New Password'/><br/>
           <input  className='innput' placeholder='Confirm Password'/><br/>
 
