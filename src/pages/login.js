@@ -12,6 +12,7 @@ function Account() {
       x.type = "password";
     }
   }
+
   return (
     <div className='login'>
       <div>
@@ -20,15 +21,15 @@ function Account() {
         <p className='welcome'>Welcome Back</p>
         <div>
           <label>Email Address</label>
-          <input type="text" placeholder='Enter your email'/>
+          <input type="text"  id="email"placeholder='Enter your email'/>
           <label>Password</label>
           <input type="password" id='myInput' placeholder='********************'/>
           <img src={Image.eye} alt='img' className='password' onClick={myFunction}/>
-          <button ><Link to='/home'>Login </Link></button>
+          <button id='btn'><Link to='/home'>Login </Link></button>
           <img src={Image.or} alt="or" className='or'/>
           <div className='dias'>
-           <div> <img src={Image.google} alt='logo'/></div>
-           <div> <img src={Image.facebok} alt='logo'/></div>
+           <div ><a href='https://www.google.com/login'> <img src={Image.google} alt='logo'/></a></div>
+           <div> <a href='https://www.facebook.com/login'><img src={Image.facebok} alt='logo'/></a></div>
           </div>
           
         </div>

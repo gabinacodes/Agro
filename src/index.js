@@ -13,7 +13,7 @@ import Maintenance from './pages/Maintain'
 import Contact from './pages/Contact'
 import Profile from './pages/Profile'
 import Faq from './pages/Faq'
-import Account from './pages/Account'
+import Login from './pages/login'
 import Cart from "./pages/Cart"
 import View from './pages/View'
 import Search from './pages/Search'
@@ -25,7 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-          <Route path="/" element={<Account/>}></Route>
+          <Route path="/" element={<Login/>}></Route>
           <Route path="view" element={<View />} /> 
           <Route path="search" element={<Search />} /> 
           <Route path="home" element={<Home />} /> 
